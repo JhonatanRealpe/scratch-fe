@@ -1,0 +1,20 @@
+.scratch-ticket {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #3747A6 0%, #BF2011 100%); 
+
+
+    &__image {
+        width: 250px;
+        height: 200px;
+        background-image: url(../../../resources/money-bag.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+}
